@@ -1,6 +1,8 @@
 import streamlit as st
 import math as mt
 
+print(1)
+
 if "score" not in st.session_state:
     st.session_state.score = 0
 a = 0
