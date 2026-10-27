@@ -1,6 +1,13 @@
 import streamlit as st
 
 def judge():
+    if(st.session_state.result["rank"] > st.session_state.enemy["rank"]):
+        st.session_state.answer = "high"
+    elif(st.session_state.result["rank"] < st.session_state.enemy["rank"]):
+        st.session_state.answer = "low"
+    else:
+        st.session_state.answer = "draw"
+
     with st.form("f", clear_on_submit=True):
         st.session_state.guess = st.text_input("high, low or draw:")
         submitted = st.form_submit_button("送信")

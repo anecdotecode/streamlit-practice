@@ -6,7 +6,6 @@ from models.launch import launch
 from models.judge import judge
 # 初期化
 launch()
-
 def conv_shape_num(a)->int:
     if(a == "spades"):
         return 0
