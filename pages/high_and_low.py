@@ -22,7 +22,6 @@ if st.session_state.get("finished"):
         st.session_state.already = [0] * 52
     st.stop()
 
-
 judge()
 
 if st.session_state.message:
