@@ -13,7 +13,7 @@ b = 0
 if st.session_state.score == 0:
     st.title("Hello, Streamlit!")
     st.write("Welcome")
-    st.image("from-PixAI-2064196393477388158.png", width=200)
+    st.image("wel.png", width=200)
 
     a = int(st.number_input(label = "ところで、好きな数字を一つ書いて下さい",
                             value = 0,
