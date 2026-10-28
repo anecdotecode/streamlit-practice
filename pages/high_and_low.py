@@ -1,7 +1,6 @@
 import streamlit as st
 import json
 from pathlib import Path
-
 from models.launch import launch
 from models.judge import judge
 from models.draw import draw
