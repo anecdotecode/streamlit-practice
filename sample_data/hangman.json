@@ -1,0 +1,1946 @@
+[
+  {
+    "word": "instrument",
+    "mean": "道具"
+  },
+  {
+    "word": "means",
+    "mean": "手段"
+  },
+  {
+    "word": "rate",
+    "mean": "割合、比率;Aを評価する(≒evaluate)"
+  },
+  {
+    "word": "glance",
+    "mean": "一瞥"
+  },
+  {
+    "word": "architecture",
+    "mean": "建築、構成"
+  },
+  {
+    "word": "trouble",
+    "mean": "心配"
+  },
+  {
+    "word": "divorce",
+    "mean": "離婚"
+  },
+  {
+    "word": "finance",
+    "mean": "財政"
+  },
+  {
+    "word": "estimate",
+    "mean": "〜を見積もる"
+  },
+  {
+    "word": "seize",
+    "mean": "〜を強く掴む"
+  },
+  {
+    "word": "lie",
+    "mean": "横たわる"
+  },
+  {
+    "word": "distinct",
+    "mean": "異なった、はっきりした"
+  },
+  {
+    "word": "familiar",
+    "mean": "よく知られた"
+  },
+  {
+    "word": "convenient",
+    "mean": "便利な"
+  },
+  {
+    "word": "slight",
+    "mean": "わずかな"
+  },
+  {
+    "word": "loose",
+    "mean": "ゆるい"
+  },
+  {
+    "word": "rough",
+    "mean": "ザラザラした"
+  },
+  {
+    "word": "precious",
+    "mean": "高価な"
+  },
+  {
+    "word": "exact",
+    "mean": "正確な"
+  },
+  {
+    "word": "sufficient",
+    "mean": "十分な"
+  },
+  {
+    "word": "industry",
+    "mean": "産業"
+  },
+  {
+    "word": "ambassador",
+    "mean": "大使"
+  },
+  {
+    "word": "legacy",
+    "mean": "（遺言による）遺産"
+  },
+  {
+    "word": "corporation",
+    "mean": "法人"
+  },
+  {
+    "word": "agriculture",
+    "mean": "農業"
+  },
+  {
+    "word": "democracy",
+    "mean": "民主主義"
+  },
+  {
+    "word": "wage",
+    "mean": "賃金"
+  },
+  {
+    "word": "purpose",
+    "mean": "目的"
+  },
+  {
+    "word": "union",
+    "mean": "労働組合、同盟"
+  },
+  {
+    "word": "republic",
+    "mean": "共和国"
+  },
+  {
+    "word": "proportional",
+    "mean": "比例した、釣り合った"
+  },
+  {
+    "word": "military",
+    "mean": "軍隊"
+  },
+  {
+    "word": "hazard",
+    "mean": "危険"
+  },
+  {
+    "word": "administration",
+    "mean": "政治"
+  },
+  {
+    "word": "election",
+    "mean": "投票"
+  },
+  {
+    "word": "negotiation",
+    "mean": "交渉"
+  },
+  {
+    "word": "firm",
+    "mean": "堅い、安定した"
+  },
+  {
+    "word": "expense",
+    "mean": "費用、犠牲"
+  },
+  {
+    "word": "account",
+    "mean": "銀行口座、考慮、説明する"
+  },
+  {
+    "word": "interrupt",
+    "mean": "〜を妨げる"
+  },
+  {
+    "word": "invoke",
+    "mean": "〜を行使する"
+  },
+  {
+    "word": "revoke",
+    "mean": "〜を無効にする"
+  },
+  {
+    "word": "reveal",
+    "mean": "〜を明らかにする"
+  },
+  {
+    "word": "pursue",
+    "mean": "〜を追う"
+  },
+  {
+    "word": "proof",
+    "mean": "証拠"
+  },
+  {
+    "word": "regardless",
+    "mean": "関係しない"
+  },
+  {
+    "word": "dismiss",
+    "mean": "〜を解雇する"
+  },
+  {
+    "word": "extend",
+    "mean": "〜を延期する"
+  },
+  {
+    "word": "defer",
+    "mean": "〜を延期する"
+  },
+  {
+    "word": "scream",
+    "mean": "悲鳴を上げる"
+  },
+  {
+    "word": "confirm",
+    "mean": "〜を確認する"
+  },
+  {
+    "word": "verify",
+    "mean": "〜が真実であると証明する"
+  },
+  {
+    "word": "proper",
+    "mean": "ふさわしい"
+  },
+  {
+    "word": "significant",
+    "mean": "重大な"
+  },
+  {
+    "word": "complicated",
+    "mean": "複雑な"
+  },
+  {
+    "word": "intense",
+    "mean": "激しい"
+  },
+  {
+    "word": "reverse",
+    "mean": "逆の"
+  },
+  {
+    "word": "minute",
+    "mean": "綿密な"
+  },
+  {
+    "word": "due",
+    "mean": "当然支払われるべき、満期の"
+  },
+  {
+    "word": "wealthy",
+    "mean": "裕福な"
+  },
+  {
+    "word": "affiliate",
+    "mean": "〜を所属させる"
+  },
+  {
+    "word": "inferior",
+    "mean": "劣った"
+  },
+  {
+    "word": "permanent",
+    "mean": "永続する"
+  },
+  {
+    "word": "perpetual",
+    "mean": "永遠の、絶え間ない"
+  },
+  {
+    "word": "punctual",
+    "mean": "（時間に）厳しい"
+  },
+  {
+    "word": "strict",
+    "mean": "（ルールに）厳しい"
+  },
+  {
+    "word": "obscure",
+    "mean": "不明瞭な"
+  },
+  {
+    "word": "irrationality",
+    "mean": "不合理性"
+  },
+  {
+    "word": "threat",
+    "mean": "脅迫"
+  },
+  {
+    "word": "virtuous",
+    "mean": "有徳の"
+  },
+  {
+    "word": "gratitude",
+    "mean": "感謝"
+  },
+  {
+    "word": "gratify",
+    "mean": "〜を喜ばせる"
+  },
+  {
+    "word": "violence",
+    "mean": "暴力"
+  },
+  {
+    "word": "issue",
+    "mean": "論点"
+  },
+  {
+    "word": "delight",
+    "mean": "歓喜"
+  },
+  {
+    "word": "protest",
+    "mean": "抗議"
+  },
+  {
+    "word": "responsibility",
+    "mean": "責任"
+  },
+  {
+    "word": "sensation",
+    "mean": "感覚、感じ、大評判"
+  },
+  {
+    "word": "shame",
+    "mean": "恥"
+  },
+  {
+    "word": "impulsive",
+    "mean": "衝動的な"
+  },
+  {
+    "word": "instinct",
+    "mean": "本能"
+  },
+  {
+    "word": "criticize",
+    "mean": "〜を批評する"
+  },
+  {
+    "word": "hesitate",
+    "mean": "ためらう"
+  },
+  {
+    "word": "amuse",
+    "mean": "〜を面白いと思わせる"
+  },
+  {
+    "word": "disturb",
+    "mean": "〜を混乱させる"
+  },
+  {
+    "word": "fascinate",
+    "mean": "〜を魅了する"
+  },
+  {
+    "word": "reject",
+    "mean": "〜を拒絶する、断る"
+  },
+  {
+    "word": "suppose",
+    "mean": "〜だと仮定する、だと思う"
+  },
+  {
+    "word": "infer",
+    "mean": "推察する、暗示する"
+  },
+  {
+    "word": "approve",
+    "mean": "〜に賛成する"
+  },
+  {
+    "word": "astonish",
+    "mean": "〜を驚かせる"
+  },
+  {
+    "word": "offend",
+    "mean": "〜の感情を害する"
+  },
+  {
+    "word": "blush",
+    "mean": "顔を赤らめる"
+  },
+  {
+    "word": "condemn",
+    "mean": "〜を非難する"
+  },
+  {
+    "word": "insult",
+    "mean": "〜を侮辱する"
+  },
+  {
+    "word": "annoy",
+    "mean": "〜を悩ませる"
+  },
+  {
+    "word": "complain",
+    "mean": "不平を言う"
+  },
+  {
+    "word": "regrettable",
+    "mean": "後悔させる、残念な"
+  },
+  {
+    "word": "efficient",
+    "mean": "有能な"
+  },
+  {
+    "word": "indifferent",
+    "mean": "無関心な"
+  },
+  {
+    "word": "stubborn",
+    "mean": "頑固な"
+  },
+  {
+    "word": "alert",
+    "mean": "用心して；用心して、油断のない"
+  },
+  {
+    "word": "desperate",
+    "mean": "必死の、絶望的な"
+  },
+  {
+    "word": "irritated",
+    "mean": "いらいらした、怒った"
+  },
+  {
+    "word": "certain",
+    "mean": "確信している"
+  },
+  {
+    "word": "rude",
+    "mean": "失礼な"
+  },
+  {
+    "word": "modest",
+    "mean": "控えめな、適度な"
+  },
+  {
+    "word": "generous",
+    "mean": "気前の良い"
+  },
+  {
+    "word": "nasty",
+    "mean": "不快な"
+  },
+  {
+    "word": "sensible",
+    "mean": "分別のある"
+  },
+  {
+    "word": "hinder",
+    "mean": "〜を妨げる"
+  },
+  {
+    "word": "disperse",
+    "mean": "〜を追い散らす"
+  },
+  {
+    "word": "embrace",
+    "mean": "〜を抱きしめる、〜を受け入れる"
+  },
+  {
+    "word": "cater",
+    "mean": "を賄う"
+  },
+  {
+    "word": "alarm",
+    "mean": "驚き、警報（装置）、〜をびっくりさせる"
+  },
+  {
+    "word": "mess",
+    "mean": "乱雑、困難"
+  },
+  {
+    "word": "peculiar",
+    "mean": "独特の、変な"
+  },
+  {
+    "word": "graceful",
+    "mean": "優美な、上品な"
+  },
+  {
+    "word": "contingency",
+    "mean": "不測の事態、起こり得ること、偶然性"
+  },
+  {
+    "word": "clasp",
+    "mean": "留め金で止める、〜をしっかり握る、〜を抱きしめる"
+  },
+  {
+    "word": "cling",
+    "mean": "しがみつく、くっつく、固執する自動詞の用法のみ"
+  },
+  {
+    "word": "imminent",
+    "mean": "今にも起こりそうな、差し迫った、切迫した"
+  },
+  {
+    "word": "complimentary",
+    "mean": "無料の、称賛的な"
+  },
+  {
+    "word": "futile",
+    "mean": "無駄な、無益な、取るに足りない"
+  },
+  {
+    "word": "lavish",
+    "mean": "気前の良い、贅沢な、豊富な"
+  },
+  {
+    "word": "proverbial",
+    "mean": "諺の、諺にある"
+  },
+  {
+    "word": "perception",
+    "mean": "認識、理解"
+  },
+  {
+    "word": "prosecute",
+    "mean": "を起訴する、をやり通す"
+  },
+  {
+    "word": "attest",
+    "mean": "を実証する、証言するこれがおそらく「test」の語源となった動詞の変化型"
+  },
+  {
+    "word": "fraud",
+    "mean": "詐欺"
+  },
+  {
+    "word": "corrupt",
+    "mean": "腐敗した、堕落した、汚職の"
+  },
+  {
+    "word": "evade",
+    "mean": "を巧みに避ける（≒avoid,escapeどちらの意味も持つが、策を用いて巧みにやる、というニュアンスが追加される）"
+  },
+  {
+    "word": "convene",
+    "mean": "集まる、を呼び集める"
+  },
+  {
+    "word": "plight",
+    "mean": "ひどい状況、苦境、窮状"
+  },
+  {
+    "word": "expedition",
+    "mean": "遠征、探検"
+  },
+  {
+    "word": "landscape",
+    "mean": "風景、眺望、全般的状況"
+  },
+  {
+    "word": "identify",
+    "mean": "特定する"
+  },
+  {
+    "word": "placement",
+    "mean": "仕事、実習"
+  },
+  {
+    "word": "constituent",
+    "mean": "有権者、成分"
+  },
+  {
+    "word": "delinquency",
+    "mean": "過失、犯罪、不履行、怠慢"
+  },
+  {
+    "word": "burglar",
+    "mean": "泥棒、窃盗犯"
+  },
+  {
+    "word": "mediation",
+    "mean": "調停、仲裁"
+  },
+  {
+    "word": "referendum",
+    "mean": "国民投票、住民投票"
+  },
+  {
+    "word": "attorney",
+    "mean": "弁護士、代理人"
+  },
+  {
+    "word": "intervention",
+    "mean": "介入、干渉、仲裁"
+  },
+  {
+    "word": "liability",
+    "mean": "法的責任、義務、負担、負債"
+  },
+  {
+    "word": "delegate",
+    "mean": "代表者、代理人接頭辞 de-（離れて）+ legare（派遣する、委任する）+接尾辞 -ate"
+  },
+  {
+    "word": "defendant",
+    "mean": "被告人、被告"
+  },
+  {
+    "word": "jeopardize",
+    "mean": "〜を脅かす、〜を危険に晒す"
+  },
+  {
+    "word": "enlighten",
+    "mean": "〜に説明する、〜を啓発する"
+  },
+  {
+    "word": "apprehend",
+    "mean": "を逮捕する、を理解する"
+  },
+  {
+    "word": "purge",
+    "mean": "を追放する、（心、体等）を清める（良くないものを外へ）"
+  },
+  {
+    "word": "rally",
+    "mean": "を集める、回復する"
+  },
+  {
+    "word": "disrupt",
+    "mean": "を崩壊させる、混乱させる"
+  },
+  {
+    "word": "abduct",
+    "mean": "を誘拐する"
+  },
+  {
+    "word": "deter",
+    "mean": "（恐怖等が人）に思いとどまらせる、止めさせる"
+  },
+  {
+    "word": "renounce",
+    "mean": "（正式に）を放棄するを否認する、と無関係であると言明する"
+  },
+  {
+    "word": "veto",
+    "mean": "拒否権、を拒否する、を禁止する"
+  },
+  {
+    "word": "subdue",
+    "mean": "を鎮圧する、征服する"
+  },
+  {
+    "word": "uphold",
+    "mean": "を支持する、を持ち上げる"
+  },
+  {
+    "word": "transact",
+    "mean": "を処理する、を実行する"
+  },
+  {
+    "word": "revamp",
+    "mean": "を改造する、を改良する"
+  },
+  {
+    "word": "amend",
+    "mean": "を訂正する、を改める"
+  },
+  {
+    "word": "validate",
+    "mean": "を法的に有効にする、を公認する"
+  },
+  {
+    "word": "mobilize",
+    "mean": "を動員する、を結集する"
+  },
+  {
+    "word": "fiscal",
+    "mean": "会計の、財政の"
+  },
+  {
+    "word": "auxiliary",
+    "mean": "予備の、補助の、付属の"
+  },
+  {
+    "word": "dubious",
+    "mean": "疑問をいだいて、疑わしい、信頼できない"
+  },
+  {
+    "word": "captive",
+    "mean": "とらわれた、捕虜"
+  },
+  {
+    "word": "thrifty",
+    "mean": "節約する、つましい"
+  },
+  {
+    "word": "economical",
+    "mean": "経済的な、無駄のない、倹約する、つましい（≒thrifty）"
+  },
+  {
+    "word": "provision",
+    "mean": "供給、貯蔵物、食料、規定"
+  },
+  {
+    "word": "companion",
+    "mean": "仲間、片方"
+  },
+  {
+    "word": "unconditional",
+    "mean": "無条件の、無制限の"
+  },
+  {
+    "word": "poll",
+    "mean": "世論調査、投票"
+  },
+  {
+    "word": "underestimate",
+    "mean": "を安く見積もる、を低く評価する"
+  },
+  {
+    "word": "apparent",
+    "mean": "明白な、見かけの、見せかけの"
+  },
+  {
+    "word": "selfish",
+    "mean": "我儘"
+  },
+  {
+    "word": "conceit",
+    "mean": "自惚れ、奇抜な思いつき"
+  },
+  {
+    "word": "hostility",
+    "mean": "敵意、戦争"
+  },
+  {
+    "word": "anticipate",
+    "mean": "を予期する、を予想する、の先を行く"
+  },
+  {
+    "word": "instantly",
+    "mean": "直ちに、即座に"
+  },
+  {
+    "word": "markedly",
+    "mean": "著しく、明らかに"
+  },
+  {
+    "word": "apparently",
+    "mean": "見たところでは（〜らしい）、外見上は"
+  },
+  {
+    "word": "expanse",
+    "mean": "（広々とした）空間"
+  },
+  {
+    "word": "concept",
+    "mean": "概念、考え、新しい発想"
+  },
+  {
+    "word": "depict",
+    "mean": "を描く、を表す"
+  },
+  {
+    "word": "integrate",
+    "mean": "を統合する、の人種差別をなくす、を完全にする"
+  },
+  {
+    "word": "trivial",
+    "mean": "つまらない、些細な、平凡な"
+  },
+  {
+    "word": "pose",
+    "mean": "ポーズをとる"
+  },
+  {
+    "word": "dignity",
+    "mean": "尊厳、威厳"
+  },
+  {
+    "word": "dignify",
+    "mean": "（…で）〜に威厳を与える、"
+  },
+  {
+    "word": "figure",
+    "mean": "数字、姿、人物、図形"
+  },
+  {
+    "word": "embark",
+    "mean": "乗船する、着手する"
+  },
+  {
+    "word": "resent",
+    "mean": "に憤慨する、を恨む"
+  },
+  {
+    "word": "liable",
+    "mean": "...しがちな（to do）、義務がある、責任がある（法や義務に）結びつけられている、縛られているli【結ぶ】ラテン語 ligare (結ぶ) に由来する語幹。lig も同根。"
+  },
+  {
+    "word": "duly",
+    "mean": "ふさわしく、時間通りに"
+  },
+  {
+    "word": "intentional",
+    "mean": "意図的な、故意の"
+  },
+  {
+    "word": "involve",
+    "mean": "を含む、を必要とする、を意味する"
+  },
+  {
+    "word": "fancy",
+    "mean": "手の込んだ、極上の、法外な"
+  },
+  {
+    "word": "fix",
+    "mean": "動かなくする、戻す、準備する"
+  },
+  {
+    "word": "intimate",
+    "mean": "親しい、私的な、内心の、詳しい"
+  },
+  {
+    "word": "interaction",
+    "mean": "相互作用、相互関連"
+  },
+  {
+    "word": "bully",
+    "mean": "を虐める、いじめっ子"
+  },
+  {
+    "word": "tease",
+    "mean": "を虐める、を誂う"
+  },
+  {
+    "word": "campaign",
+    "mean": "運動、作戦行動"
+  },
+  {
+    "word": "confront",
+    "mean": "に立ちはだかる、に立ち向かう、と向かい合う"
+  },
+  {
+    "word": "stir",
+    "mean": "をかき混ぜる、を動かす、を扇動する"
+  },
+  {
+    "word": "cruel",
+    "mean": "残酷な、辛い"
+  },
+  {
+    "word": "alter",
+    "mean": "を変える、変わる"
+  },
+  {
+    "word": "intolerable",
+    "mean": "耐えられない、我慢できない"
+  },
+  {
+    "word": "enlightened",
+    "mean": "精通した"
+  },
+  {
+    "word": "impediment",
+    "mean": "障害病も物体も共に"
+  },
+  {
+    "word": "torment",
+    "mean": "を苦しめる、をいじめる"
+  },
+  {
+    "word": "meanness",
+    "mean": "貧弱、卑劣"
+  },
+  {
+    "word": "agenda",
+    "mean": "（会議の）日程、議題"
+  },
+  {
+    "word": "leisure",
+    "mean": "余暇"
+  },
+  {
+    "word": "technique",
+    "mean": "技術"
+  },
+  {
+    "word": "organize",
+    "mean": "を組織する、（考え等）をまとめる"
+  },
+  {
+    "word": "problematic",
+    "mean": "疑わしい、問題のある"
+  },
+  {
+    "word": "sort",
+    "mean": "種類、person、方法"
+  },
+  {
+    "word": "sophisticated",
+    "mean": "洗練された、教養のある、精巧な"
+  },
+  {
+    "word": "discipline",
+    "mean": "訓練、規律"
+  },
+  {
+    "word": "specific",
+    "mean": "明確な、特定の、独特の"
+  },
+  {
+    "word": "pledge",
+    "mean": "誓約、固い約束、担保"
+  },
+  {
+    "word": "bold",
+    "mean": "大胆な、目立つ"
+  },
+  {
+    "word": "scale",
+    "mean": "目盛り、段階、規模を登る、登る"
+  },
+  {
+    "word": "breathe",
+    "mean": "息をする"
+  },
+  {
+    "word": "innate",
+    "mean": "生まれつきの、持って生まれた"
+  },
+  {
+    "word": "assert",
+    "mean": "を断言する、を主張する"
+  },
+  {
+    "word": "throng",
+    "mean": "群衆群がる、〜に殺到する"
+  },
+  {
+    "word": "breach",
+    "mean": "違反、裏切り、不和"
+  },
+  {
+    "word": "standstill",
+    "mean": "停止、休止、行き詰まり"
+  },
+  {
+    "word": "conspiracy",
+    "mean": "陰謀、共謀"
+  },
+  {
+    "word": "fuzzy",
+    "mean": "ぼやけた、軟らかな、困惑した"
+  },
+  {
+    "word": "authentic",
+    "mean": "信頼すべき、本物の、真正の(≒genuine)"
+  },
+  {
+    "word": "refocus",
+    "mean": "再び焦点を定める、重点を変える"
+  },
+  {
+    "word": "prioritize",
+    "mean": "優先順位をつける、重要性に従って組織する"
+  },
+  {
+    "word": "foreign",
+    "mean": "外国の、外から入ってきた、固有でない、異質の、相容れない"
+  },
+  {
+    "word": "aspire",
+    "mean": "Have an ambitious plan or lofty goal.（野心的な計画を、或いはとても高い目標を持つ）熱望する"
+  },
+  {
+    "word": "quality",
+    "mean": "質、特質、良質"
+  },
+  {
+    "word": "attain",
+    "mean": "到達する、達成する、到る"
+  },
+  {
+    "word": "tolerance",
+    "mean": "寛容さ、忍耐"
+  },
+  {
+    "word": "merely",
+    "mean": "単に、ちょうど、ばかり、ただ≒(only)"
+  },
+  {
+    "word": "touching",
+    "mean": "人の心を動かす、感動的"
+  },
+  {
+    "word": "throat",
+    "mean": "喉"
+  },
+  {
+    "word": "barely",
+    "mean": "かろうじて、乏しく、ぎりぎりの"
+  },
+  {
+    "word": "obstinate",
+    "mean": "頑固な、なかなか治らない"
+  },
+  {
+    "word": "earnest",
+    "mean": "真面目な、熱心な、重大な"
+  },
+  {
+    "word": "timid",
+    "mean": "臆病な、おどおどした"
+  },
+  {
+    "word": "cemetery",
+    "mean": "墓地"
+  },
+  {
+    "word": "disown",
+    "mean": "（家族、相続を）断つ、否定する"
+  },
+  {
+    "word": "deplore",
+    "mean": "遺憾に思う、嘆き悲しむ"
+  },
+  {
+    "word": "anatomy",
+    "mean": "解剖学"
+  },
+  {
+    "word": "positive",
+    "mean": "明確な、肯定的な、確信した"
+  },
+  {
+    "word": "relative",
+    "mean": "親戚比較上の、関係のある、比例した"
+  },
+  {
+    "word": "luxury",
+    "mean": "豪華さ、快適な状態、贅沢品、豪華さを誇る（≒luxuriousよりも語調強し広告で多用）"
+  },
+  {
+    "word": "correspond",
+    "mean": "一致する、調和する、合う[with,to](≒agree)対応する、相当する[to]文通する、通信する[with]"
+  },
+  {
+    "word": "venue",
+    "mean": "開催地、裁判地、裁判籍"
+  },
+  {
+    "word": "explicit",
+    "mean": "明白な、明確な(≒distinct,manifest,articulate)"
+  },
+  {
+    "word": "manifest",
+    "mean": "明白な、現れる、を明らかにする、を明示する"
+  },
+  {
+    "word": "articulate",
+    "mean": "明確な、理路整然とした、をはっきりと表現、発音する"
+  },
+  {
+    "word": "clarity",
+    "mean": "明快さ、鮮明さ"
+  },
+  {
+    "word": "appearance",
+    "mean": "外見、外観見せかけ(≒hypocrisy 「偽善、見せかけ」)出現"
+  },
+  {
+    "word": "hypocrisy",
+    "mean": "偽善、見せかけ"
+  },
+  {
+    "word": "fine",
+    "mean": "細かい、上等な、元気な、晴れの罰金"
+  },
+  {
+    "word": "eminent",
+    "mean": "著名な、高名な、優れた"
+  },
+  {
+    "word": "vintage",
+    "mean": "極上の、年代物の時期、"
+  },
+  {
+    "word": "gorgeous",
+    "mean": "華やかな、素晴らしい（ゴージャス）"
+  },
+  {
+    "word": "splendid",
+    "mean": "豪華な、素晴らしい"
+  },
+  {
+    "word": "magnificent",
+    "mean": "壮大な、豪華な、素敵な"
+  },
+  {
+    "word": "pigment",
+    "mean": "色素、顔料"
+  },
+  {
+    "word": "stain",
+    "mean": "染料、しみ、傷"
+  },
+  {
+    "word": "concede",
+    "mean": "を仕方なく認める"
+  },
+  {
+    "word": "concession",
+    "mean": "（〜への、〜に関する）譲歩、許容（to/on,about）"
+  },
+  {
+    "word": "conserve",
+    "mean": "を保存する、を保護する"
+  },
+  {
+    "word": "console",
+    "mean": "を慰める"
+  },
+  {
+    "word": "flutter",
+    "mean": "はばたきする、はためく、どきどきするを振るはばたき、動揺"
+  },
+  {
+    "word": "temporal",
+    "mean": "時間の、現世の、束の間の"
+  },
+  {
+    "word": "copulate",
+    "mean": "交尾、性行する"
+  },
+  {
+    "word": "cue",
+    "mean": "合図、きっかけ、ヒント"
+  },
+  {
+    "word": "affix",
+    "mean": "を貼る、添付する"
+  },
+  {
+    "word": "adhesive",
+    "mean": "接着剤、粘着性の、べたべたする"
+  },
+  {
+    "word": "bestow",
+    "mean": "を授ける、与える"
+  },
+  {
+    "word": "scant",
+    "mean": "乏しい、足りない"
+  },
+  {
+    "word": "drain",
+    "mean": "を排出させる、を空にする、使い果たす水がはける、徐々に尽きる"
+  },
+  {
+    "word": "drainage",
+    "mean": "排水設備、排水路、排水"
+  },
+  {
+    "word": "overlay",
+    "mean": "《通例受身で》を覆う、を上塗りする"
+  },
+  {
+    "word": "quiver",
+    "mean": "慄く、震えるを震わせる"
+  },
+  {
+    "word": "shudder",
+    "mean": "身震いする身震い、震え"
+  },
+  {
+    "word": "tremble",
+    "mean": "震える、振動する震え、振動"
+  },
+  {
+    "word": "sway",
+    "mean": "揺れる、傾くを揺り動かすAを揺さぶる、変化させるほど影響を与える"
+  },
+  {
+    "word": "vibrate",
+    "mean": "震える、振動するを震わせる"
+  },
+  {
+    "word": "eloquent",
+    "mean": "雄弁な、よく表す(of)"
+  },
+  {
+    "word": "fallacy",
+    "mean": "誤り、誤った考え"
+  },
+  {
+    "word": "mischief",
+    "mean": "悪戯、害、悪戯っ子"
+  },
+  {
+    "word": "offset",
+    "mean": "を相殺する、を埋め合わせする埋め合わせ"
+  },
+  {
+    "word": "supplement",
+    "mean": "補足、付録を補う"
+  },
+  {
+    "word": "deficiency",
+    "mean": "不足、欠陥"
+  },
+  {
+    "word": "deficit",
+    "mean": "不足、欠損、赤字"
+  },
+  {
+    "word": "sufficiency",
+    "mean": "十分なこと対deficiency"
+  },
+  {
+    "word": "compassionate",
+    "mean": "哀れみ深い"
+  },
+  {
+    "word": "composite",
+    "mean": "複合的な、合成の合成物、複合物"
+  },
+  {
+    "word": "speculation",
+    "mean": "推測、思索、投機"
+  },
+  {
+    "word": "communicative",
+    "mean": "話好きの(≒talkative)、伝達の"
+  },
+  {
+    "word": "talkative",
+    "mean": "話好きの、お喋りな"
+  },
+  {
+    "word": "thorough",
+    "mean": "完全な、全くの"
+  },
+  {
+    "word": "downright",
+    "mean": "まったく全くの、率直な"
+  },
+  {
+    "word": "sheer",
+    "mean": "全くの、険しいまったく、垂直に"
+  },
+  {
+    "word": "absurd",
+    "mean": "愚かな、馬鹿げた"
+  },
+  {
+    "word": "painstakingly",
+    "mean": "苦心して、苦労して注意深く"
+  },
+  {
+    "word": "uneven",
+    "mean": "均一でない"
+  },
+  {
+    "word": "reserve",
+    "mean": "（re後に+serve保つ→取っておく）を予約するを取っておくを保有するを控える"
+  },
+  {
+    "word": "conjecture",
+    "mean": "推測近くに＋投げる"
+  },
+  {
+    "word": "contemplate",
+    "mean": "を熟考する、を想定する羅:（源）前兆などを観察する特別な場所"
+  },
+  {
+    "word": "ponder",
+    "mean": "を熟考する(≒contemplate)じっくり考える"
+  },
+  {
+    "word": "reckon",
+    "mean": "を思う、を推測する数える、計算する"
+  },
+  {
+    "word": "deliberate",
+    "mean": "故意の慎重な接頭辞 de- (完全に、強意) + ラテン語の librare (重さを量る、天秤にかける) 天秤にかけるようにじっくりと考える代理人、代表者はdelegate"
+  },
+  {
+    "word": "conceive",
+    "mean": "を考えつくだと想像するを言い表す"
+  },
+  {
+    "word": "deem",
+    "mean": "（である）と考える"
+  },
+  {
+    "word": "presume",
+    "mean": "を推定する先んじて+取る"
+  },
+  {
+    "word": "surmise",
+    "mean": "推量する"
+  },
+  {
+    "word": "pious",
+    "mean": "信心深い、宗教的な"
+  },
+  {
+    "word": "preach",
+    "mean": "伝道する、説教する"
+  },
+  {
+    "word": "nun",
+    "mean": "修道女"
+  },
+  {
+    "word": "hymn",
+    "mean": "讃美歌"
+  },
+  {
+    "word": "sober",
+    "mean": "真面目な"
+  },
+  {
+    "word": "solemn",
+    "mean": "厳粛な、真面目な"
+  },
+  {
+    "word": "loyal",
+    "mean": "忠義な、誠実な"
+  },
+  {
+    "word": "integrity",
+    "mean": "誠実、高潔、"
+  },
+  {
+    "word": "disciplinary",
+    "mean": "規律の、規律に関する、学科の"
+  },
+  {
+    "word": "interdisciplinary",
+    "mean": "学際的な"
+  },
+  {
+    "word": "lexicon",
+    "mean": "語彙(≒vocabulary)、辞書"
+  },
+  {
+    "word": "press",
+    "mean": "報道機関、新聞、印刷"
+  },
+  {
+    "word": "thrust",
+    "mean": "をぐっと押す、を押し付ける押す、突く、突き出る"
+  },
+  {
+    "word": "transition",
+    "mean": "移り変わる、移行する移り変わり、過渡期"
+  },
+  {
+    "word": "transient",
+    "mean": "一時的な、束の間の"
+  },
+  {
+    "word": "predominantly",
+    "mean": "主に、大抵"
+  },
+  {
+    "word": "overwhelming",
+    "mean": "圧倒的な"
+  },
+  {
+    "word": "precaution",
+    "mean": "予防措置、用心"
+  },
+  {
+    "word": "outrage",
+    "mean": "憤激、激怒"
+  },
+  {
+    "word": "cognitive",
+    "mean": "認知の"
+  },
+  {
+    "word": "component",
+    "mean": "要素"
+  },
+  {
+    "word": "hypothesis",
+    "mean": "仮説"
+  },
+  {
+    "word": "dispute",
+    "mean": "紛争、揉め事"
+  },
+  {
+    "word": "equivalent",
+    "mean": "相当する"
+  },
+  {
+    "word": "multiple",
+    "mean": "複数の"
+  },
+  {
+    "word": "consistent",
+    "mean": "一貫した"
+  },
+  {
+    "word": "transfer",
+    "mean": "移動する、移転する"
+  },
+  {
+    "word": "famine",
+    "mean": "飢餓"
+  },
+  {
+    "word": "raid",
+    "mean": "襲撃"
+  },
+  {
+    "word": "procedure",
+    "mean": "手続き、方法"
+  },
+  {
+    "word": "notion",
+    "mean": "観念、考え；考え"
+  },
+  {
+    "word": "direct",
+    "mean": "を指導する、を誘導する"
+  },
+  {
+    "word": "exaggerate",
+    "mean": "を誇張する、を大袈裟に言うIt is impossible to exaggerate the importance of education.教育の重要性はいくら強調してもしすぎることはない。自動、他動ともにあり"
+  },
+  {
+    "word": "parallel",
+    "mean": "類似品、並行物、平行線匹敵する"
+  },
+  {
+    "word": "smug",
+    "mean": "独りよがりの、自己満足の"
+  },
+  {
+    "word": "ashore",
+    "mean": "水から岸の方へ"
+  },
+  {
+    "word": "destructive",
+    "mean": "破壊的な、破壊主義的な、有害な"
+  },
+  {
+    "word": "outage",
+    "mean": "減量、故障、隙間、停電時間"
+  },
+  {
+    "word": "property",
+    "mean": "所有物、財産、特性、所有地、家屋"
+  },
+  {
+    "word": "fled",
+    "mean": "flee-fled-fled"
+  },
+  {
+    "word": "adequate",
+    "mean": "十分な、適切な、適した、まずまずの"
+  },
+  {
+    "word": "outgrow",
+    "mean": "伸びだしてくる、著しく成長する、脱却する"
+  },
+  {
+    "word": "depreciate",
+    "mean": "下落する"
+  },
+  {
+    "word": "intensely",
+    "mean": "激しく、強烈に、強く"
+  },
+  {
+    "word": "crumble",
+    "mean": "崩壊する"
+  },
+  {
+    "word": "troubled",
+    "mean": "悩んでいる、荒れた"
+  },
+  {
+    "word": "rigid",
+    "mean": "固定した"
+  },
+  {
+    "word": "absolute",
+    "mean": "絶対的な"
+  },
+  {
+    "word": "examine",
+    "mean": "…を検証する"
+  },
+  {
+    "word": "subsequent",
+    "mean": "後の"
+  },
+  {
+    "word": "successfully",
+    "mean": "うまく"
+  },
+  {
+    "word": "catastrophic",
+    "mean": "破壊の"
+  },
+  {
+    "word": "blow",
+    "mean": "打撃"
+  },
+  {
+    "word": "scheme",
+    "mean": "計画"
+  },
+  {
+    "word": "faculty",
+    "mean": "能力、感覚、力量"
+  },
+  {
+    "word": "reason",
+    "mean": "理由、理性(対 instinct:本能、才能、直感)、判断力、思慮"
+  },
+  {
+    "word": "disguise",
+    "mean": "変装、変装させる、隠す"
+  },
+  {
+    "word": "conventional",
+    "mean": "（一緒に…来る…的な）慣例の、従来の（兵器、戦争、発電等が）原子力によらない、通常の"
+  },
+  {
+    "word": "provokeA",
+    "mean": "A(感情、行動等)を起こさせる、誘発するAをイライラさせる"
+  },
+  {
+    "word": "excessive",
+    "mean": "過度の、極端な、法外な"
+  },
+  {
+    "word": "relief",
+    "mean": "安堵、安心"
+  },
+  {
+    "word": "interviewer",
+    "mean": "面接する人(interviewee:面接される人)"
+  },
+  {
+    "word": "anxiety",
+    "mean": "心配、不安"
+  },
+  {
+    "word": "incessant",
+    "mean": "(通例悪い・不愉快なことが)絶え間のない, ひっきりなしの「止まることのない」が原義"
+  },
+  {
+    "word": "appropriateness",
+    "mean": "適切さ"
+  },
+  {
+    "word": "mere",
+    "mean": "ほんの、単なる"
+  },
+  {
+    "word": "message",
+    "mean": "伝達、伝えたいこと"
+  },
+  {
+    "word": "indeed",
+    "mean": "実際に"
+  },
+  {
+    "word": "bewilder",
+    "mean": "〜をまごつかせる、〜を当惑させる"
+  },
+  {
+    "word": "psychiatry",
+    "mean": "精神医学、精神病療法"
+  },
+  {
+    "word": "flaw",
+    "mean": "欠陥、不備突風、一頻りの嵐"
+  },
+  {
+    "word": "salute",
+    "mean": "敬礼、称賛"
+  },
+  {
+    "word": "registry",
+    "mean": "登録、登記"
+  },
+  {
+    "word": "pulse",
+    "mean": "脈拍、心拍、意向"
+  },
+  {
+    "word": "breakdown",
+    "mean": "崩壊、衰弱、明細、分析"
+  },
+  {
+    "word": "posture",
+    "mean": "姿勢、ポーズ、態度"
+  },
+  {
+    "word": "duration",
+    "mean": "継続、持続"
+  },
+  {
+    "word": "nausea",
+    "mean": "吐き気、嘔吐ノージャ"
+  },
+  {
+    "word": "accessory",
+    "mean": "付属品、置物補助的な、付随する"
+  },
+  {
+    "word": "robust",
+    "mean": "頑健な、たくましい、丈夫な"
+  },
+  {
+    "word": "feeble",
+    "mean": "弱い"
+  },
+  {
+    "word": "juvenile",
+    "mean": "青少年の、未熟な"
+  },
+  {
+    "word": "petty",
+    "mean": "些細な"
+  },
+  {
+    "word": "spatial",
+    "mean": "空間の、空間的な"
+  },
+  {
+    "word": "notable",
+    "mean": "特に、著しく"
+  },
+  {
+    "word": "intersect",
+    "mean": "交わる、を横切る"
+  },
+  {
+    "word": "recede",
+    "mean": "去っていく、薄れる"
+  },
+  {
+    "word": "lament",
+    "mean": "を悲しむ、嘆く、後悔する"
+  },
+  {
+    "word": "stride",
+    "mean": "大股で歩く、またぐ"
+  },
+  {
+    "word": "financial",
+    "mean": "経済的な、財政的な"
+  },
+  {
+    "word": "attribute",
+    "mean": "特性、属性(≒feature)"
+  },
+  {
+    "word": "status",
+    "mean": "地位"
+  },
+  {
+    "word": "content",
+    "mean": "満足、中身、内容満足させる満足して、喜んで"
+  },
+  {
+    "word": "readily",
+    "mean": "難なく、すぐに、快く、喜んで、進んで"
+  },
+  {
+    "word": "nuisance",
+    "mean": "迷惑になること、迷惑行為、いやな人"
+  },
+  {
+    "word": "primarily",
+    "mean": "主に、第一に"
+  },
+  {
+    "word": "unskilled",
+    "mean": "熟練していない"
+  },
+  {
+    "word": "spectrum",
+    "mean": "分布、範囲（=range）"
+  },
+  {
+    "word": "persistent",
+    "mean": "持続的な、永続的な"
+  },
+  {
+    "word": "prosperity",
+    "mean": "繁栄"
+  },
+  {
+    "word": "perishable",
+    "mean": "壊れやすい"
+  },
+  {
+    "word": "article",
+    "mean": "品物、商品、記事"
+  },
+  {
+    "word": "thereby",
+    "mean": "それにより"
+  },
+  {
+    "word": "possibly",
+    "mean": "事によると、ともすると、どうしても"
+  },
+  {
+    "word": "utterance",
+    "mean": "発言、表現"
+  },
+  {
+    "word": "particular",
+    "mean": "特定の、特別の"
+  },
+  {
+    "word": "mutually",
+    "mean": "相互に"
+  },
+  {
+    "word": "stamp",
+    "mean": "痕跡、影響"
+  },
+  {
+    "word": "product",
+    "mean": "産物、製品、結果"
+  },
+  {
+    "word": "proceed",
+    "mean": "進む、進行する、取り掛かる、続ける"
+  },
+  {
+    "word": "empirically",
+    "mean": "経験的に"
+  },
+  {
+    "word": "thrive",
+    "mean": "健康に育つ、力強くなる"
+  },
+  {
+    "word": "context",
+    "mean": "前後関係、文脈、状況"
+  },
+  {
+    "word": "jargon",
+    "mean": "（屢々批判的に）専門用語、特殊な言い回し"
+  },
+  {
+    "word": "prior",
+    "mean": "早い、先の"
+  },
+  {
+    "word": "inhibit",
+    "mean": "Aを抑制する、Aを禁止する"
+  },
+  {
+    "word": "resourcefully",
+    "mean": "臨機応変に"
+  },
+  {
+    "word": "peculiarly",
+    "mean": "特異さ、奇妙さ"
+  },
+  {
+    "word": "existence",
+    "mean": "存在、生活←"
+  },
+  {
+    "word": "once",
+    "mean": "一度、一度〜すると、かつて"
+  },
+  {
+    "word": "considerable",
+    "mean": "かなりの"
+  },
+  {
+    "word": "tireless",
+    "mean": "絶え間ない"
+  },
+  {
+    "word": "insubstantial",
+    "mean": "実体のない"
+  },
+  {
+    "word": "ably",
+    "mean": "うまく、巧みに"
+  },
+  {
+    "word": "premise",
+    "mean": "前提"
+  },
+  {
+    "word": "originate",
+    "mean": "由来する、始まる"
+  },
+  {
+    "word": "transmissible",
+    "mean": "伝達可能な"
+  },
+  {
+    "word": "enforceable",
+    "mean": "実行力のある"
+  },
+  {
+    "word": "cunning",
+    "mean": "狡猾な、ずる賢い"
+  },
+  {
+    "word": "evil",
+    "mean": "害、害悪邪悪な、不吉な、有害な"
+  },
+  {
+    "word": "generously",
+    "mean": "気前よく"
+  },
+  {
+    "word": "absorbing",
+    "mean": "魅力的な"
+  },
+  {
+    "word": "insatiable",
+    "mean": "飽くことなき、留まるところを知らない"
+  },
+  {
+    "word": "typically",
+    "mean": "概して、概ね、典型的に、独特に"
+  },
+  {
+    "word": "coordination",
+    "mean": "調整、対等関係"
+  },
+  {
+    "word": "refinement",
+    "mean": "改良、上品、雅"
+  },
+  {
+    "word": "misguided",
+    "mean": "誤解に基づく、見当違いの"
+  },
+  {
+    "word": "coastal",
+    "mean": "沿岸の"
+  },
+  {
+    "word": "profound",
+    "mean": "重大な、深いfoundがラテン語語源的には底、基本"
+  },
+  {
+    "word": "grand",
+    "mean": "壮大な、豪華な、偉大な"
+  },
+  {
+    "word": "burial",
+    "mean": "埋葬、墓所"
+  },
+  {
+    "word": "disconnect",
+    "mean": "断絶"
+  },
+  {
+    "word": "accumulate",
+    "mean": "集める、蓄積する"
+  },
+  {
+    "word": "deprived",
+    "mean": "恵まれない"
+  },
+  {
+    "word": "brilliance",
+    "mean": "素晴らしさ、優秀さ"
+  },
+  {
+    "word": "awkward",
+    "mean": "ぎこちない使いにくい不器用な"
+  },
+  {
+    "word": "insight",
+    "mean": "洞察力、見抜くこと"
+  },
+  {
+    "word": "helpless",
+    "mean": "無力な"
+  },
+  {
+    "word": "succsessive",
+    "mean": "引き続いた"
+  },
+  {
+    "word": "exceptionaly",
+    "mean": "例外的に"
+  },
+  {
+    "word": "given",
+    "mean": "一定の"
+  },
+  {
+    "word": "articulation",
+    "mean": "発音の明瞭さつながり関節"
+  },
+  {
+    "word": "meanwhile",
+    "mean": "一方で、その間に"
+  },
+  {
+    "word": "unchecked",
+    "mean": "検査されていない、抑制されない"
+  },
+  {
+    "word": "cyclical",
+    "mean": "周期的な、循環の"
+  },
+  {
+    "word": "relatively",
+    "mean": "比較的"
+  },
+  {
+    "word": "intensity",
+    "mean": "強さ、強度"
+  },
+  {
+    "word": "cite",
+    "mean": "〜を引用する"
+  },
+  {
+    "word": "concentration",
+    "mean": "濃度、集中、没頭"
+  },
+  {
+    "word": "panel",
+    "mean": "委員会"
+  },
+  {
+    "word": "preserve",
+    "mean": "保存する、保護する、維持する（砂糖漬け）"
+  },
+  {
+    "word": "commercial",
+    "mean": "商業の、営利的な、打算的な"
+  },
+  {
+    "word": "peoples",
+    "mean": "民族、国民、ある特性の人の集団（ある時代の人々等）"
+  },
+  {
+    "word": "when",
+    "mean": "だけれども（譲歩）"
+  }
+]

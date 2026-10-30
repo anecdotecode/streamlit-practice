@@ -1,10 +1,20 @@
 import streamlit as st
+import json
 from pathlib import Path
 import string
 import streamlit as st
 
 stri = ""
-img_path = Path(__file__).parent.parent / "imges" / "0.svg"
+if "imgnum" not in st.session_state:
+    st.session_state.imgnum = 0
+imgnum = 0
+imgname = str(imgnum) + ".svg"
+img_path = Path(__file__).parent.parent / "imges" / imgname
+wordlist_path = Path(__file__).parent.parent/ "sample_data"/ "hangman.json"
+with open(wordlist_path, "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+
 left,right = st.columns(2, vertical_alignment="center")
 with left:
     st.image(img_path)
