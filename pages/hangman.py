@@ -41,12 +41,10 @@ for i, ch in enumerate(string.ascii_uppercase):
     with cols[i % 9]:
         used = ch in st.session_state.used
         if st.button('❌' if used else ch, key=ch, disabled=used):
-            print(ch)
             st.session_state.used.add(ch)
             num = st.session_state.quiz['word'].count(ch.lower())
             if not 0 == num:
                 countwords = 0
-                print('a')
                 countall = 0
                 st.session_state.length += num
                 while countwords != st.session_state.quiz['word'].count(ch.lower()):
