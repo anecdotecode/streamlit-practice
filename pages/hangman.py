@@ -8,6 +8,9 @@ import random
 if 'imgnum' not in st.session_state:
     st.session_state.imgnum = 0
 
+if 'length' not in st.session_state:
+    st.session_state.length = 0
+
 if 'DoesQuizExist' not in st.session_state:
     st.session_state.DoesQuizExist = False
 
@@ -20,6 +23,34 @@ if 'quiz' not in st.session_state:
 if 'used' not in st.session_state:
     st.session_state.used = set()
 
+if 'show_gameover' not in st.session_state:
+    st.session_state.show_gameover = False
+
+if 'show_clear' not in st.session_state:
+        st.session_state.show_clear = False
+
+if st.session_state.show_gameover:
+    st.title("GAME OVER")
+    st.text(f"The answer is {st.session_state.quiz['word']}\nAnd meanings in japanese is {st.session_state.quiz['mean']}")
+    if st.button("CONTINUE?"):
+        st.session_state.imgnum = 0
+        st.session_state.length = 0
+        st.session_state.DoesQuizExist = False
+        st.session_state.quiz = None
+        st.session_state.used = set()
+        st.session_state.show_gameover = False
+    st.stop()
+
+if st.session_state.show_clear:
+    st.title("CLEAR")
+    if st.button("CONTINUE?"):
+        st.session_state.imgnum = 0
+        st.session_state.length = 0
+        st.session_state.DoesQuizExist = False
+        st.session_state.quiz = None
+        st.session_state.used = set()
+        st.session_state.show_clear = False
+    st.stop()
 imgname = str(st.session_state.imgnum) + '.svg'
 img_path = Path(__file__).parent.parent / 'imges' / imgname
 wordlist_path = Path(__file__).parent.parent/ 'sample_data'/ 'hangman.json'
@@ -53,12 +84,12 @@ for i, ch in enumerate(string.ascii_uppercase):
         if st.button('❌' if used else ch, key=ch, disabled=used):
             print(ch)
             st.session_state.used.add(ch)
-            print(0 == st.session_state.quiz['word'].count(ch.lower()))
-            print(st.session_state.quiz['word'])
-            if not 0 == st.session_state.quiz['word'].count(ch.lower()):
+            num = st.session_state.quiz['word'].count(ch.lower())
+            if not 0 == num:
                 countwords = 0
                 print('a')
-                countall = 0    
+                countall = 0
+                st.session_state.length += num
                 while countwords != st.session_state.quiz['word'].count(ch.lower()):
                     if  st.session_state.quiz['word'][countall] == ch.lower():
                         st.session_state.tempans[countall] = ch.lower() + ' '
@@ -66,4 +97,12 @@ for i, ch in enumerate(string.ascii_uppercase):
                     countall += 1
             else:
                 st.session_state.imgnum += 1
+            if st.session_state.imgnum == 8:
+                st.session_state.length = 0
+                st.session_state.show_gameover = True
+
+            if st.session_state.length == leng:
+                st.session_state.length = 0
+                st.session_state.show_clear = True
+
             st.rerun()
