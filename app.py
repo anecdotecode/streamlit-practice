@@ -1,9 +1,5 @@
 import streamlit as st
 import math as mt
-if "i" not in st.session_state:
-    st.session_state.i = 0
-st.session_state.i += 1
-print(st.session_state.i)
 
 if "score" not in st.session_state:
     st.session_state.score = 0
