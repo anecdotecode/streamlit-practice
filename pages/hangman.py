@@ -40,6 +40,13 @@ cols = st.columns(9)
 for i, ch in enumerate(string.ascii_uppercase):
     with cols[i % 9]:
         used = ch in st.session_state.used
+        st.markdown("""
+                    <style>
+                    [data-testid="stBaseButton-secondary"] p { color: inherit !important; font-size: 24px !important; }
+                    [data-testid="stBaseButton-secondary"] { width: 50px; height: 50px; }
+                    </style>
+                    """, unsafe_allow_html=True)
+
         if st.button('❌' if used else ch, key=ch, disabled=used):
             st.session_state.used.add(ch)
             num = st.session_state.quiz['word'].count(ch.lower())
