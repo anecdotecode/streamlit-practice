@@ -4,4 +4,7 @@ theme:
  name: mkdocs
 nav:
  - Home: index.md
+ - About: about.md
+ - How to play hangman: howtous/hangman.md
+ - How to play high and low: howtous/high_and_low.md
 repo_url: https://github.com/anecdotecode/streamlit-practice
