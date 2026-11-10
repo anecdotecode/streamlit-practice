@@ -25,13 +25,13 @@ def judge():
                 """,
                 unsafe_allow_html=True)
     with a:
-        if(st.button("high",key= "high")):
+        if(st.button("high",key= "high",disabled= st.session_state.check)):
             st.session_state.guess = "high"
     with b:
-        if(st.button("draw",key= "draw")):
+        if(st.button("draw",key= "draw",disabled= st.session_state.check)):
             st.session_state.guess = "draw"
     with c:
-        if(st.button("low",key="low")):
+        if(st.button("low",key="low",disabled= st.session_state.check)):
             st.session_state.guess = "low"
     if(st.session_state.guess in ("high","low","draw")):
         if(st.session_state.answer == st.session_state.guess):
