@@ -11,4 +11,4 @@ def gameover():
             st.session_state.quiz = None
             st.session_state.used = set()
             st.session_state.show_gameover = False
-        st.stop()
+        st.rerun()
