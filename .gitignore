@@ -167,7 +167,7 @@ venv.bak/
 .ropeproject
 
 # mkdocs/Zensical documentation
-/site
+docs/site
 
 # mypy
 .mypy_cache/
@@ -222,3 +222,7 @@ __marimo__/
 
 #vscode
 .vscode/
+
+docs/site/
+
+site/

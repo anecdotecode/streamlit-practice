@@ -1,0 +1,7 @@
+site_name: game-site
+site_url: https://anecdotecode.github.io/streamlit-practice/
+theme:
+ name: mkdocs
+nav:
+ - Home: index.md
+repo_url: https://github.com/anecdotecode/streamlit-practice

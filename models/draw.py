@@ -60,6 +60,3 @@ def draw(data):
             st.image(card_img(st.session_state.prev),width=200)
     with right:
         st.image(card_img(st.session_state.enemy),width= 200)  
-
-
-    
