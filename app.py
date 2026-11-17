@@ -70,3 +70,4 @@ elif st.session_state.app_stage == 1:
 
 if st.button("reset"):
     st.session_state.app_stage = 0
+    st.rerun()
