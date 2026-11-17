@@ -14,9 +14,9 @@ Streamlit の練習用マルチページアプリ。
 
 ## High & Low のルール
 
-- 2枚のカード(`enemy` と `result`)の数字(rank)を比較する。スートは spades / hearts / diamonds / clubs。
-- `result` の rank が `enemy` より大きければ答えは `high`、小さければ `low`、同じなら `draw`。
-- `high` / `draw` / `low` のいずれかを選ぶ。選択するとボタンが無効になり、正解・不正解と答え(カードと high/low/draw)が表示される。
+- 場のカード(コード上の `enemy`)と、伏せられた次のカード(`result`)の数字(rank、1〜13)を比較する。スートは spades / hearts / diamonds / clubs。
+- 次のカードの数字が場のカードより大きければ答えは `high`、小さければ `low`、同じなら `draw`。
+- `high` / `draw` / `low` のいずれかを選ぶ。正解・不正解と答え(カードと high/low/draw)が表示され、答えのカードが新しい場のカードになる。
 - 得点・カウント:
 
 | 結果 | 得点 | 正解数 | 問題数 |

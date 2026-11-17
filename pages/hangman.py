@@ -22,6 +22,7 @@ if not st.session_state.DoesQuizExist:
     st.session_state.quiz = random.choice(data)
 
 leng = len(st.session_state.quiz['word'])
+print(st.session_state.quiz['word'])
 
 if not st.session_state.DoesQuizExist:
     st.session_state.tempans.clear()
