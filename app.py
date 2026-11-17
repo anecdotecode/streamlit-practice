@@ -66,7 +66,7 @@ if st.session_state.app_stage == 0:
         st.rerun()
 
 elif st.session_state.app_stage == 1:
-    st.image("from-PixAI-2064196393477388158.png", width=500)
+    st.image("wel.png", width=500)
 
 if st.button("reset"):
     st.session_state.app_stage = 0
