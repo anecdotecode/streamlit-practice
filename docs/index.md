@@ -14,7 +14,7 @@ Streamlit の練習用マルチページアプリ。
 
     伏せられた英単語を1文字ずつ当てる。ミスは8回まで。
 
-    [:octicons-arrow-right-24: How to play hangman](how-to-play-hangman.md)
+    [:octicons-arrow-right-24: How to play hangman](howtous/hang_man.md)
 
 -   :material-cards:{ .lg .middle } __high and low__
 
@@ -22,6 +22,6 @@ Streamlit の練習用マルチページアプリ。
 
     場のカードと次のカードの大小を予想する。
 
-    [:octicons-arrow-right-24: How to play high and low](how-to-play-high-and-low.md)
+    [:octicons-arrow-right-24: How to play high and low](howtous/high_and_low.md)
 
 </div>
