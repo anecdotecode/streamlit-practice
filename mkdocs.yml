@@ -1,10 +1,55 @@
-site_name: game-site
-site_url: https://anecdotecode.github.io/streamlit-practice/
+site_name: app-practice
+site_description: Streamlit 練習アプリ(hangman / high and low)の遊び方
+
 theme:
- name: mkdocs
+  name: material
+  language: ja
+  icon:
+    logo: material/gamepad-variant
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: ダークモードに切り替え
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: ライトモードに切り替え
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - content.code.copy
+    - search.highlight
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  version:
+    provider: mike
+
 nav:
- - Home: index.md
- - About: about.md
- - How to play hangman: howtous/hang_man.md
- - How to play high and low: howtous/high_and_low.md
-repo_url: https://github.com/anecdotecode/streamlit-practice
+  - ホーム: index.md
+  - How to play hangman: how-to-play-hangman.md
+  - How to play high and low: how-to-play-high-and-low.md
