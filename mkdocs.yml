@@ -1,4 +1,6 @@
-site_name: app-practice
+site_name: game-site
+site_url: https://anecdotecode.github.io/streamlit-practice/
+repo_url: https://github.com/anecdotecode/streamlit-practice
 site_description: Streamlit 練習アプリ(hangman / high and low)の遊び方
 
 theme:
@@ -50,6 +52,7 @@ extra:
     provider: mike
 
 nav:
-  - ホーム: index.md
-  - How to play hangman: how-to-play-hangman.md
-  - How to play high and low: how-to-play-high-and-low.md
+  - Home: index.md
+  - About: about.md
+  - How to play hangman: howtous/hang_man.md
+  - How to play high and low: howtous/high_and_low.md
