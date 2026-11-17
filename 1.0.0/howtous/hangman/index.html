@@ -86,8 +86,28 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#hangman" class="nav-link">Hangman</a>
+            <li class="nav-item" data-bs-level="1"><a href="#how-to-play-hangman" class="nav-link">How to play hangman</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#_1" class="nav-link">目的</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#_2" class="nav-link">遊び方</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#_3" class="nav-link">選んだ文字</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#_4" class="nav-link">ミスとゲームオーバー</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#_5" class="nav-link">結果の表示</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -95,7 +115,31 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="hangman">Hangman</h1></div>
+<h1 id="how-to-play-hangman">How to play hangman</h1>
+<h2 id="_1">目的</h2>
+<p>伏せられた英単語を、1文字ずつ当てて完成させる。</p>
+<h2 id="_2">遊び方</h2>
+<ol>
+<li>画面に、単語の文字数分の下線(<code>_</code>)と絞首台の絵が表示される。単語は単語リストからランダムに選ばれる。</li>
+<li>A〜Z のボタンから、単語に含まれると思う文字を選ぶ。</li>
+<li>含まれていれば、その文字が入る位置すべてに同時に表示される。</li>
+<li>含まれていなければミスになり、絵が1段階進む。</li>
+<li>すべての文字を当てれば勝ち(<code>CLEAR</code>)。</li>
+</ol>
+<h2 id="_3">選んだ文字</h2>
+<ul>
+<li>一度選んだ文字のボタンは ❌ 表示になり、押せなくなる。</li>
+</ul>
+<h2 id="_4">ミスとゲームオーバー</h2>
+<ul>
+<li>ミスは8回まで。8回目のミスで <code>GAME OVER</code> になる。</li>
+</ul>
+<h2 id="_5">結果の表示</h2>
+<ul>
+<li><code>CLEAR</code> または <code>GAME OVER</code> の画面に、答えの単語と日本語の意味が表示される。</li>
+<li><code>CONTINUE?</code> ボタンを押すと、新しい単語で最初からやり直せる。ミスの回数と選択済みの文字はリセットされる。</li>
+<li>単語はランダムに選ばれ、出題済みの単語を除く処理はない。同じ単語が再び出ることがある。</li>
+</ul></div>
             </div>
         </div>
 

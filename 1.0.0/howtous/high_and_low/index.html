@@ -86,8 +86,28 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#high-and-low" class="nav-link">High and Low</a>
+            <li class="nav-item" data-bs-level="1"><a href="#how-to-play-high-and-low" class="nav-link">How to play high and low</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#_1" class="nav-link">目的</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#_2" class="nav-link">遊び方</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#_3" class="nav-link">答えの決まり方</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#_4" class="nav-link">得点</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#_5" class="nav-link">終了</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -95,7 +115,82 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="high-and-low">High and Low</h1></div>
+<h1 id="how-to-play-high-and-low">How to play high and low</h1>
+<h2 id="_1">目的</h2>
+<p>「場のカード」と、伏せられた次のカードの数字を比べ、<code>high</code> / <code>draw</code> / <code>low</code> のどれが答えかを当てる。</p>
+<h2 id="_2">遊び方</h2>
+<ol>
+<li>画面に場のカード(スートと数字)が表示される。次のカードは伏せられている。</li>
+<li>次のカードの数字が場のカードより大きいと思えば <code>high</code>、小さいと思えば <code>low</code>、同じだと思えば <code>draw</code> を押す。</li>
+<li>押すと、正解・不正解と、答えのカード・答え(high / low / draw)が表示される。</li>
+<li>答えのカードが新しい場のカードになり、1つ前の場のカードが左に表示される。続けて次の予想をする。</li>
+</ol>
+<h2 id="_3">答えの決まり方</h2>
+<table>
+<thead>
+<tr>
+<th>条件</th>
+<th>答え</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>次のカードの数字 &gt; 場のカードの数字</td>
+<td>high</td>
+</tr>
+<tr>
+<td>次のカードの数字 &lt; 場のカードの数字</td>
+<td>low</td>
+</tr>
+<tr>
+<td>同じ</td>
+<td>draw</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>比べるのは数字(1〜13)だけで、スートは答えに影響しない。</li>
+</ul>
+<h2 id="_4">得点</h2>
+<table>
+<thead>
+<tr>
+<th>結果</th>
+<th>得点</th>
+<th>正解数</th>
+<th>問題数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>high / low 正解</td>
+<td>+1</td>
+<td>+1</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>draw 正解</td>
+<td>(現在の得点 + 1) × 2</td>
+<td>+1</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>不正解</td>
+<td>変化なし</td>
+<td>変化なし</td>
+<td>+1</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>画面には 得点・問題数・正解数・誤答数 が表示される。</li>
+<li>誤答数は「問題数 − 正解数」。</li>
+</ul>
+<h2 id="_5">終了</h2>
+<ul>
+<li>カードは52枚(4スート × 13)。全カードがめくられると終了する。総得点と正答率(正解数 ÷ 問題数、小数第1位まで・以下切り捨て)が表示される。</li>
+<li>終了画面の <code>もう一回やるならここをクリック</code> ボタンで、最初からやり直せる。</li>
+</ul></div>
             </div>
         </div>
 
