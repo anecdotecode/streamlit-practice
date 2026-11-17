@@ -3,7 +3,6 @@ import streamlit as st
 def clear():
     if st.session_state.show_clear:
         st.title("CLEAR")
-        st.balloons()
         st.text(f"The answer is {st.session_state.quiz['word']}\nAnd meanings in japanese is {st.session_state.quiz['mean']}")
         if st.button("CONTINUE?"):
             st.session_state.imgnum = 0

@@ -50,6 +50,7 @@ for i, ch in enumerate(string.ascii_uppercase):
 
         if st.button('❌' if used else ch, key=ch, disabled=used):
             st.session_state.used.add(ch)
+            print(ch)
             num = st.session_state.quiz['word'].count(ch.lower())
             if not 0 == num:
                 countwords = 0
@@ -68,5 +69,6 @@ for i, ch in enumerate(string.ascii_uppercase):
 
             if st.session_state.length == leng:
                 st.session_state.length = 0
+                print('You Win')
                 st.session_state.show_clear = True
             st.rerun()
