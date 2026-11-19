@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  html, body { margin: 0; padding: 0; background: transparent; overflow: hidden; }
+  #board { display: block; margin: 0 auto; touch-action: manipulation; }
+</style>
+</head>
+<body>
+<canvas id="board"></canvas>
+<script>
+// リバーシ盤面コンポーネント(Streamlit カスタムコンポーネント v1 の素のプロトコル)。
+// 受け取る args:
+//   board   : 8x8 の整数 (0=空, 1=黒, 2=白)
+//   human   : 自分の色 (1 or 2)
+//   turn    : 現在の手番の色
+//   enabled : true のときだけ操作を受け付ける
+//   legal   : [[r,c], ...] 置けるマス(enabled のときだけ黄色い点で表示)
+//   hint    : [[r,c], ...] 漢字の一部を見せるマス(自分の石のマスだけが対象)
+//   glyph   : 漢字1文字(空文字ならヒントなし)
+//   game_id : 対局ごとの識別子
+//   ply     : 現在の手数
+// 返す値(クリック時): {game_id, ply, turn, r, c, nonce}
+(function () {
+  'use strict';
+
+  var SIZE = 8, MAX_PX = 480, MIN_PX = 160, PAD = 1, LOCK_MS = 1200;
+  var BLACK = 1, WHITE = 2;
+  var FONT = '"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo",' +
+             '"Noto Sans CJK JP","Noto Sans JP",sans-serif';
+
+  var canvas = document.getElementById('board');
+  var ctx = canvas.getContext('2d');
+  var args = null, theme = {}, geom = null;
+  var legalSet = {}, hintSet = {};
+  var pending = false, lockTimer = null, nonce = 0;
+  var glyphCache = { key: null, canvas: null };
+
+  function send(type, extra) {
+    var msg = { isStreamlitMessage: true, type: 'streamlit:' + type };
+    for (var k in extra) { msg[k] = extra[k]; }
+    window.parent.postMessage(msg, '*');
+  }
+
+  function computeGeom() {
+    var w = window.innerWidth || MAX_PX;
+    var px = Math.floor(Math.max(MIN_PX, Math.min(MAX_PX, w - 2 * PAD)) / SIZE) * SIZE;
+    return { px: px, cell: px / SIZE, total: px + 2 * PAD, dpr: window.devicePixelRatio || 1 };
+  }
+
+  function toSet(list) {
+    var s = {};
+    (list || []).forEach(function (rc) { s[rc[0] + ',' + rc[1]] = true; });
+    return s;
+  }
+
+  // 漢字を盤面全体(px × px)に広げた1枚の絵として描いておく。
+  function glyphCanvas(glyph, ink) {
+    var key = [glyph, ink, geom.px, geom.dpr].join('|');
+    if (glyphCache.key === key) { return glyphCache.canvas; }
+    var off = document.createElement('canvas');
+    off.width = Math.round(geom.px * geom.dpr);
+    off.height = Math.round(geom.px * geom.dpr);
+    var o = off.getContext('2d');
+    o.scale(geom.dpr, geom.dpr);
+    var fontPx = geom.px * 0.92;
+    o.font = '500 ' + fontPx + 'px ' + FONT;
+    o.textAlign = 'center';
+    o.textBaseline = 'middle';
+    o.fillStyle = ink;
+    o.fillText(glyph, geom.px / 2, geom.px / 2);
+    glyphCache = { key: key, canvas: off };
+    return off;
+  }
+
+  function draw() {
+    if (!args) { return; }
+    geom = computeGeom();
+    var g = geom, cell = g.cell;
+    canvas.style.width = g.total + 'px';
+    canvas.style.height = g.total + 'px';
+    canvas.width = Math.round(g.total * g.dpr);
+    canvas.height = Math.round(g.total * g.dpr);
+    ctx.setTransform(g.dpr, 0, 0, g.dpr, 0, 0);
+    ctx.clearRect(0, 0, g.total, g.total);
+
+    // 罫線(薄く。盤面の背景色は塗らない)
+    ctx.save();
+    ctx.globalAlpha = 0.28;
+    ctx.strokeStyle = theme.textColor || '#31333F';
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    for (var i = 0; i <= SIZE; i++) {
+      var p = PAD + i * cell;
+      ctx.moveTo(PAD, p + 0.5); ctx.lineTo(PAD + g.px, p + 0.5);
+      ctx.moveTo(p + 0.5, PAD); ctx.lineTo(p + 0.5, PAD + g.px);
+    }
+    ctx.stroke();
+    ctx.restore();
+
+    var radius = cell * 0.42;
+    var human = args.human;
+    var glyph = args.glyph || '';
+    var ink = human === BLACK ? '#ffffff' : '#111111';
+    var gc = glyph ? glyphCanvas(glyph, ink) : null;
+
+    // 置けるマス(自分の手番のときだけ)
+    if (args.enabled) {
+      (args.legal || []).forEach(function (rc) {
+        var cx = PAD + (rc[1] + 0.5) * cell, cy = PAD + (rc[0] + 0.5) * cell;
+        ctx.beginPath();
+        ctx.arc(cx, cy, cell * 0.13, 0, Math.PI * 2);
+        ctx.fillStyle = '#f5c400';
+        ctx.fill();
+        ctx.lineWidth = 1;
+        ctx.strokeStyle = 'rgba(0,0,0,0.45)';
+        ctx.stroke();
+      });
+    }
+
+    // 石と、自分の石の上の漢字
+    for (var r = 0; r < SIZE; r++) {
+      for (var c = 0; c < SIZE; c++) {
+        var v = args.board[r][c];
+        if (v !== BLACK && v !== WHITE) { continue; }
+        var x = PAD + (c + 0.5) * cell, y = PAD + (r + 0.5) * cell;
+        ctx.beginPath();
+        ctx.arc(x, y, radius, 0, Math.PI * 2);
+        ctx.fillStyle = v === BLACK ? '#1a1a1a' : '#ffffff';
+        ctx.fill();
+        ctx.lineWidth = 1;
+        ctx.strokeStyle = v === BLACK ? '#000000' : '#777777';
+        ctx.stroke();
+
+        if (gc && v === human && hintSet[r + ',' + c]) {
+          ctx.save();
+          ctx.beginPath();
+          ctx.arc(x, y, radius - 1, 0, Math.PI * 2);
+          ctx.clip();
+          var d = g.dpr;
+          ctx.drawImage(gc, c * cell * d, r * cell * d, cell * d, cell * d,
+                        PAD + c * cell, PAD + r * cell, cell, cell);
+          ctx.restore();
+        }
+      }
+    }
+    send('setFrameHeight', { height: g.total });
+  }
+
+  function cellAt(ev) {
+    var rect = canvas.getBoundingClientRect();
+    if (!rect.width || !geom) { return null; }
+    var x = (ev.clientX - rect.left) * (geom.total / rect.width) - PAD;
+    var y = (ev.clientY - rect.top) * (geom.total / rect.height) - PAD;
+    if (x < 0 || y < 0 || x >= geom.px || y >= geom.px) { return null; }
+    return { r: Math.floor(y / geom.cell), c: Math.floor(x / geom.cell) };
+  }
+
+  canvas.addEventListener('click', function (ev) {
+    if (!args || !args.enabled || pending) { return; }
+    var rc = cellAt(ev);
+    if (!rc || !legalSet[rc.r + ',' + rc.c]) { return; }
+    pending = true;
+    clearTimeout(lockTimer);
+    lockTimer = setTimeout(function () { pending = false; }, LOCK_MS);
+    send('setComponentValue', {
+      value: { game_id: args.game_id, ply: args.ply, turn: args.turn,
+               r: rc.r, c: rc.c, nonce: ++nonce },
+      dataType: 'json'
+    });
+  });
+
+  canvas.addEventListener('mousemove', function (ev) {
+    var rc = args && args.enabled && !pending ? cellAt(ev) : null;
+    canvas.style.cursor = rc && legalSet[rc.r + ',' + rc.c] ? 'pointer' : 'default';
+  });
+
+  window.addEventListener('message', function (ev) {
+    var d = ev.data;
+    if (!d || d.type !== 'streamlit:render') { return; }
+    args = d.args || {};
+    theme = d.theme || {};
+    legalSet = toSet(args.legal);
+    hintSet = toSet(args.hint);
+    pending = false;           // 再描画が来た = Python 側が処理した
+    clearTimeout(lockTimer);
+    draw();
+  });
+
+  window.addEventListener('resize', draw);
+
+  send('componentReady', { apiVersion: 1 });
+})();
+</script>
+</body>
+</html>
