@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://anecdotecode.github.io/streamlit-practice/1.0.0/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-19</lastmod>
     </url>
     <url>
          <loc>https://anecdotecode.github.io/streamlit-practice/1.0.0/about/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-19</lastmod>
     </url>
     <url>
          <loc>https://anecdotecode.github.io/streamlit-practice/1.0.0/howtous/hang_man/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-19</lastmod>
     </url>
     <url>
          <loc>https://anecdotecode.github.io/streamlit-practice/1.0.0/howtous/high_and_low/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-19</lastmod>
+    </url>
+    <url>
+         <loc>https://anecdotecode.github.io/streamlit-practice/1.0.0/howtous/kanji_reversi/</loc>
+         <lastmod>2026-11-19</lastmod>
     </url>
 </urlset>
