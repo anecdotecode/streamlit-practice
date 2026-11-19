@@ -8,16 +8,22 @@ from models.showres import show
 
 launch()
 
+if not st.session_state.start:
+    if not st.button("ゲームを始める"):
+        st.session_state.start = True
+        st.stop()
+
 json_path = Path(__file__).parent.parent / "sample_data" / "highAndLow.json"
 with open(json_path, "r", encoding="utf-8") as f:
     data = json.load(f)
 
 draw(data)
 
+
 p, a, s = st.session_state.point, st.session_state.all, st.session_state.score
 with st.container(key="stats"):
     c1, c2, c3, c4 = st.columns(4)
-    c1.metric("得点", p)
+    c1.metric("得点", p)    
     c2.metric("問題数", a)
     c3.metric("正解数", s)
     c4.metric("誤答数", a - s)

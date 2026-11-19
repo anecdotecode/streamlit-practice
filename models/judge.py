@@ -16,11 +16,11 @@ def judge():
     st.markdown("""
                 <style>
                 .st-key-high button p { color: #d67f28; font-size: 24px !important;  }
-                .st-key-high button { width: 200px; height: 80px; }
+                .st-key-high button { width: 200px; height: 60px; }
                 .st-key-draw button p { color: inherient;font-size: 24px !important; }
-                .st-key-draw button { width: 200px; height: 80px; }
+                .st-key-draw button { width: 200px; height: 60px; }
                 .st-key-low button p { color: #28bcd6; font-size: 24px !important;}
-                .st-key-low button { width: 200px; height: 80px; }
+                .st-key-low button { width: 200px; height: 60px; }
                 </style>
                 """,
                 unsafe_allow_html=True)
@@ -49,6 +49,6 @@ def judge():
             st.session_state.all += 1
         e = st.session_state.result
         f = st.session_state.answer
-        st.session_state.message += f"<h2>\n答え: <span style='color:{SUIT_COLOR[e['suit']]}'>{SUIT_MARK[e['suit']]} {e['rank']}</span>つまり<span style='color:{SIZE[f]}'>{f}</span>が答え</h2>"
+        st.session_state.message += f"<h3> 答え: <span style='color:{SUIT_COLOR[e['suit']]}'>{SUIT_MARK[e['suit']]} {e['rank']}</span> <span style='color:{SIZE[f]}'>{f}</span>が答え</h3>"
         st.session_state.check = True
         st.rerun()        

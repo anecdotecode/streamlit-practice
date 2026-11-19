@@ -46,11 +46,18 @@ def draw(data):
             st.session_state.all = 52
             st.session_state.finished = True
             
-    e = st.session_state.enemy
-    st.markdown(
-        f"<h1>場のカード: <span style='color:{SUIT_COLOR[e['suit']]}'>{SUIT_MARK[e['suit']]} {e['rank']}</span></h1>",
-        unsafe_allow_html=True,
-    )
+    p,e =st.session_state.prev, st.session_state.enemy
+    pi,ei = st.columns(2, vertical_alignment='center')
+    with pi:
+        st.markdown(
+            f"<h4>前のカード: <span style='color:{SUIT_COLOR[p['suit']]}'>{SUIT_MARK[p['suit']]} {p['rank']}</span></h4>",
+            unsafe_allow_html=True,
+        )
+    with ei:
+        st.markdown(
+            f"<h4>場のカード: <span style='color:{SUIT_COLOR[e['suit']]}'>{SUIT_MARK[e['suit']]} {e['rank']}</span></h4>",
+            unsafe_allow_html=True,
+        )
     h = st.session_state.history
     if len(h) != len(set(h)):
         st.error("重複を検出")

@@ -2,9 +2,6 @@ import streamlit as st
 
 # 初期化
 def launch():
-    st.markdown(f"<h1><span style='color:{"#d67f28"}'>High</span> <span style='color:{"inherit"}'>&</span> <span style='color:{"#28bcd6"}'>Low</span> <span style='color:{"inherit"}'>Game<span></h1>",
-                unsafe_allow_html=True,
-                )
     if "check" not in st.session_state:
         st.session_state.check = True
     if "guess" not in st.session_state:
@@ -25,3 +22,8 @@ def launch():
         st.session_state.finished = False
     if "history" not in st.session_state:
         st.session_state.history = []
+    if "start" not in st.session_state:
+        st.session_state.start = False
+        st.markdown(f"<h1><span style='color:{"#d67f28"}'>High</span> <span style='color:{"inherit"}'>&</span> <span style='color:{"#28bcd6"}'>Low</span> <span style='color:{"inherit"}'>Game<span></h1>",
+                        unsafe_allow_html=True,
+                        )
