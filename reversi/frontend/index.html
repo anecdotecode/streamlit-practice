@@ -18,7 +18,7 @@
 //   turn    : 現在の手番の色
 //   enabled : true のときだけ操作を受け付ける
 //   legal   : [[r,c], ...] 置けるマス(enabled のときだけ黄色い点で表示)
-//   hint    : [[r,c], ...] 漢字の一部を見せるマス(自分の石のマスだけが対象)
+//   hint    : [[r,c], ...] 漢字の一部を見せるマス(自分の石のマスだけが対象。マス全体に描く)
 //   glyph   : 漢字1文字(空文字ならヒントなし)
 //   game_id : 対局ごとの識別子
 //   ply     : 現在の手数
@@ -126,6 +126,12 @@
         var v = args.board[r][c];
         if (v !== BLACK && v !== WHITE) { continue; }
         var x = PAD + (c + 0.5) * cell, y = PAD + (r + 0.5) * cell;
+        var showHint = gc && v === human && hintSet[r + ',' + c];
+        if (showHint) {
+          // 自分のマスは円の外(四隅)も含めてマス全体を石に近い色で塗り、漢字を見せる
+          ctx.fillStyle = human === BLACK ? '#3d3d3d' : '#d4d4d4';
+          ctx.fillRect(PAD + c * cell, PAD + r * cell, cell, cell);
+        }
         ctx.beginPath();
         ctx.arc(x, y, radius, 0, Math.PI * 2);
         ctx.fillStyle = v === BLACK ? '#1a1a1a' : '#ffffff';
@@ -134,15 +140,10 @@
         ctx.strokeStyle = v === BLACK ? '#000000' : '#777777';
         ctx.stroke();
 
-        if (gc && v === human && hintSet[r + ',' + c]) {
-          ctx.save();
-          ctx.beginPath();
-          ctx.arc(x, y, radius - 1, 0, Math.PI * 2);
-          ctx.clip();
+        if (showHint) {
           var d = g.dpr;
           ctx.drawImage(gc, c * cell * d, r * cell * d, cell * d, cell * d,
                         PAD + c * cell, PAD + r * cell, cell, cell);
-          ctx.restore();
         }
       }
     }

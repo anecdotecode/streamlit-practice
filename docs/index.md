@@ -24,4 +24,12 @@ Streamlit の練習用マルチページアプリ。
 
     [:octicons-arrow-right-24: How to play high and low](howtous/high_and_low.md)
 
+-   :material-checkerboard:{ .lg .middle } __kanji reversi__
+
+    ---
+
+    リバーシをしながら、盤面に隠れた漢字を当てる。
+
+    [:octicons-arrow-right-24: How to play kanji reversi](howtous/kanji_reversi.md)
+
 </div>

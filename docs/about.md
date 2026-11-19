@@ -1,6 +1,6 @@
-# Two games are here
+# Three games are here
 
-Streamlit で作った2つのゲーム、hangman と high and low の遊び方をまとめたサイト。
+Streamlit で作った3つのゲーム、hangman・high and low・kanji reversi の遊び方をまとめたサイト。
 
 [アプリを開く](https://app-practice-8da4fnwuy2hjuejq3dbnwm.streamlit.app/){ .md-button .md-button--primary }
 [GitHub](https://github.com/anecdotecode/streamlit-practice){ .md-button }

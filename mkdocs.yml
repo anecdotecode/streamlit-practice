@@ -1,7 +1,7 @@
 site_name: game-site
 site_url: https://anecdotecode.github.io/streamlit-practice/
 repo_url: https://github.com/anecdotecode/streamlit-practice
-site_description: Streamlit 練習アプリ(hangman / high and low)の遊び方
+site_description: Streamlit 練習アプリ(hangman / high and low / kanji reversi)の遊び方
 
 theme:
   name: material
@@ -56,3 +56,4 @@ nav:
   - About: about.md
   - How to play hangman: howtous/hang_man.md
   - How to play high and low: howtous/high_and_low.md
+  - How to play kanji reversi: howtous/kanji_reversi.md
