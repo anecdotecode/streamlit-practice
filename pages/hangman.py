@@ -8,9 +8,13 @@ from hangmod.gameover import gameover
 from hangmod.clear import clear
 
 launch()
-gameover()       
-clear()
-
+if st.session_state.show_gameover:
+    gameover()
+    st.stop()
+if st.session_state.show_clear:
+    clear()
+    st.stop()
+    
 imgname = str(st.session_state.imgnum) + '.svg'
 img_path = Path(__file__).parent.parent / 'imges' / imgname
 wordlist_path = Path(__file__).parent.parent/ 'sample_data'/ 'hangman.json'

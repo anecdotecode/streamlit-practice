@@ -55,7 +55,7 @@ def draw(data):
     if len(h) != len(set(h)):
         st.error("重複を検出")
         st.write(h, st.session_state.already)
-    if "prev" in st.session_state: 
+    if "prev" in st.session_state:
         with left:
             st.image(card_img(st.session_state.prev),width=200)
     with right:
