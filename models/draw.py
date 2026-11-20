@@ -2,6 +2,8 @@ import streamlit as st
 import random
 from PIL import Image
 from models.image import make_card
+from pathlib import Path
+
 
 def conv_shape_num(a)->int:
     if(a == "spades"):
@@ -13,7 +15,6 @@ def conv_shape_num(a)->int:
     else:
         return 3
 
-from pathlib import Path
 
 def card_img(card):
     base = Path(__file__).parent.parent / 'hal_img'
@@ -46,13 +47,8 @@ def draw(data):
             st.session_state.all = 52
             st.session_state.finished = True
             
-    p,e =st.session_state.prev, st.session_state.enemy
+    e = st.session_state.enemy
     pi,ei = st.columns(2, vertical_alignment='center')
-    with pi:
-        st.markdown(
-            f"<h4>前のカード: <span style='color:{SUIT_COLOR[p['suit']]}'>{SUIT_MARK[p['suit']]} {p['rank']}</span></h4>",
-            unsafe_allow_html=True,
-        )
     with ei:
         st.markdown(
             f"<h4>場のカード: <span style='color:{SUIT_COLOR[e['suit']]}'>{SUIT_MARK[e['suit']]} {e['rank']}</span></h4>",
@@ -63,6 +59,12 @@ def draw(data):
         st.error("重複を検出")
         st.write(h, st.session_state.already)
     if "prev" in st.session_state:
+        p = st.session_state.prev
+        with pi:
+            st.markdown(
+            f"<h4>前のカード: <span style='color:{SUIT_COLOR[p['suit']]}'>{SUIT_MARK[p['suit']]} {p['rank']}</span></h4>",
+            unsafe_allow_html=True,
+        )
         with left:
             st.image(card_img(st.session_state.prev),width=200)
     with right:

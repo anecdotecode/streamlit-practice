@@ -1,9 +1,18 @@
 import streamlit as st
+from pathlib import Path
 
 def gameover():
+    mada = Path(__file__).parent.parent / "imges" / "mada.png"
     if st.session_state.show_gameover:
         st.title("GAME OVER")
-        st.text(f"The answer is {st.session_state.quiz['word']}\nAnd meanings in japanese is {st.session_state.quiz['mean']}")
+        left, right = st.columns(2, vertical_alignment='center')
+
+        with left:
+            st.markdown(f"<h4>The answer is <span style='color:{"#d62b28"}'>{st.session_state.quiz['word']}</span></h4>", unsafe_allow_html=True)
+            st.markdown(f"<h4>And meanings in japanese is</h4>", unsafe_allow_html=True)
+            st.markdown(f"<h4><span style='color:{"#b628d6"}'>{st.session_state.quiz['mean']}</span></h4>", unsafe_allow_html=True)
+        with right:
+            st.image(mada, width=230)
         if st.button("CONTINUE?"):
             st.session_state.imgnum = 0
             st.session_state.length = 0
